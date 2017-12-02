@@ -8,3 +8,4 @@ RUN apk -U add go libc-dev git ca-certificates glide go-tools && \
 ENV GOPATH="/usr/local/src"
 ENV GOROOT="/usr/lib/go"
 ENV PATH="/bin:/usr/bin:/sbin:/usr/sbin:$GOPATH/bin"
+RUN go get github.com/rancher/trash
