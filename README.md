@@ -1,1 +1,1 @@
-Simple docker container with glide pre-installed
+Simple docker container with dep pre-installed

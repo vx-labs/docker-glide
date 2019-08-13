@@ -1,3 +1,3 @@
 all: docker
 docker:
-	docker build  -t vxlabs/glide  .
+	docker build  -t quay.io/vxlabs/dep  .
